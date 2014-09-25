@@ -109,8 +109,8 @@ This package contains the netCDF C static libs.
 Summary: NetCDF mpich libraries
 Group: Development/Libraries
 Requires: mpich
-BuildRequires: mpich-devel
-BuildRequires: hdf5-mpich-devel >= 1.8.4
+BuildRequires: mpich2-devel
+BuildRequires: hdf5-mpich2-devel >= 1.8.4
 
 %description mpich
 NetCDF parallel mpich libraries
