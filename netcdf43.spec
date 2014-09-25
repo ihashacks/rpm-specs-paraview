@@ -194,7 +194,7 @@ NetCDF parallel openmpi static libraries
            --enable-hdf4 \\\
            --disable-dap-remote-tests \\\
 %{nil}
-export LDFLAGS="%{__global_ldflags} -L%{_libdir}/hdf"
+export LDFLAGS="$RPM_LD_FLAGS -L%{_libdir}/hdf"
 
 # Serial build
 mkdir build
